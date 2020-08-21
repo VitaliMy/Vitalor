@@ -1,5 +1,5 @@
 water = int(input('Write how many ml of water the coffee machine has in it? \n'))
-milk = int(input('Write how many ml of milk the coffee machine has in it?: \n'))
+milk = int(input('Write how many ml of milk the coffee machine has in it? \n'))
 coffee_beans = int(input('Write how many grams of coffee beans the coffee machine has in it? \n'))
 disposable_cups = int(input('Write how many disposable_cups the coffee machine has in it? \n'))
 money = int(input('Write how  much money the coffee machine has in it? \n'))
