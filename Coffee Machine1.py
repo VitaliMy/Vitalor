@@ -1,8 +1,8 @@
-water = 400
-milk = 540
-coffee_beans = 120
-disposable_cups = 9
-money = 550
+water = int(input('Write how many ml of water the coffee machine has in it? \n'))
+milk = int(input('Write how many ml of milk the coffee machine has in it?: \n'))
+coffee_beans = int(input('Write how many grams of coffee beans the coffee machine has in it? \n'))
+disposable_cups = int(input('Write how many disposable_cups the coffee machine has in it? \n'))
+money = int(input('Write how  much money the coffee machine has in it? \n'))
 class CoffeeMachine:
     def __init__(self, water, milk, coffee_beans, disposable_cups, money):
         self.water = water
@@ -86,7 +86,7 @@ class CoffeeMachine:
         water_fill = int(input('Write how many ml of water do you want to add: \n'))
         milk_fill = int(input('Write how many ml of milk do you want to add: \n'))
         coffee_beans_fill = int(input('Write how many grams of coffee beans do you want to add: \n'))
-        disposable_cups_fill = int(input('Write how many disposable cups of coffee do you want to add: \n'))
+        disposable_cups_fill = int(input('Write how many disposable_cups do you want to add: \n'))
         global water
         water += water_fill
         global milk
